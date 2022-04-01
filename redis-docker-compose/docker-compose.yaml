@@ -5,7 +5,7 @@ services:
     container_name: redis-learning
     image: redis
     ports: 
-      - "7379:6379"
+      - "6379:6379"
     command: redis-server /etc/redis.conf
     volumes: 
       - "./redis-data:/data"
